@@ -1,0 +1,17 @@
+# SQLite library built by lib_build/
+libsqlite3.a
+sqlite3.lib
+
+# Odin build output
+*.bin
+*.exe
+*.pdb
+*.o
+*.obj
+/example/example
+/odin-sqlite-strict
+
+# Database files from local experiments
+*.db
+*.db-wal
+*.db-shm
